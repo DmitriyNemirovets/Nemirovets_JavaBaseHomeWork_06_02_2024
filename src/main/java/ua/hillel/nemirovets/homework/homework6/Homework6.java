@@ -103,11 +103,11 @@ public class Homework6 {
         }
         scanner.nextLine();
 
-        double arithmeticAverageTeam1 = (team1User1Int + team1User2Int + team1User3Int + team1User4Int + team1User5Int) / 5;
-        double arithmaticAverageTeam2 = (team2User1Int + team2User2Int + team2User3Int + team2User4Int + team2User5Int) / 5;
+        double arithmeticAverageTeam1 = (team1User1Int + team1User2Int + team1User3Int + team1User4Int + team1User5Int) / 5.0;
+        double arithmaticAverageTeam2 = (team2User1Int + team2User2Int + team2User3Int + team2User4Int + team2User5Int) / 5D;
 
-//        System.out.println("Arithmetic Average" + team1Name + " = " + arithmeticAverageTeam1);
-//        System.out.println("Arithmetic Average" + team2Name + " = " + arithmaticAverageTeam2);
+        System.out.println("Arithmetic Average" + team1Name + " = " + arithmeticAverageTeam1);
+        System.out.println("Arithmetic Average" + team2Name + " = " + arithmaticAverageTeam2);
 
         if (arithmeticAverageTeam1 > arithmaticAverageTeam2) {
             System.out.println("Winner Team 1" + " " + team1Name + " = " + " " + arithmeticAverageTeam1 + " " + "points");
