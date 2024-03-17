@@ -14,6 +14,7 @@ public class Burger {
         this.cheese = cheese;
         this.green = green;
         this.mayonnaise = mayonnaise;
+        burgerRegular();
     }
 
     void burgerRegular() {
@@ -30,6 +31,7 @@ public class Burger {
         this.meat = meat;
         this.cheese = cheese;
         this.green = green;
+        burgerDiet();
     }
 
     void burgerDiet() {
@@ -49,6 +51,7 @@ public class Burger {
         if (doubleMeat) {
             this.meat += "(double)";
         }
+        burgerDoubleMeat();
     }
 
     void burgerDoubleMeat() {
