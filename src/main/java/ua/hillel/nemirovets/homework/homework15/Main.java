@@ -5,9 +5,9 @@ public class Main {
     public static void main(String[] args) {
         PopMusic popBand = new PopMusic("Pop Band");
         RockMusic rockBand = new RockMusic("Rock Band");
-        ClassicMusic classicOrchestra = new ClassicMusic("Classic Orchestra");
+        ClassicMusic classicBand = new ClassicMusic("Classic Band");
 
-        MusicStyles[] musicBands = {popBand, rockBand, classicOrchestra};
+        MusicStyles[] musicBands = {popBand, rockBand, classicBand};
 
         for (MusicStyles band : musicBands) {
             band.playMusic();
