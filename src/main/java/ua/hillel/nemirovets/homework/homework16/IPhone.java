@@ -1,6 +1,6 @@
 package ua.hillel.nemirovets.homework.homework16;
 
-class iPhones implements Smartphones, IOs {
+ class iPhones implements Smartphones, IOs {
     public void call(String number) {
         System.out.println("Calling " + number + " from an iPhone.");
     }

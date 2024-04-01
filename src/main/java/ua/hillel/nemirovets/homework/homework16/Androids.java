@@ -1,6 +1,6 @@
 package ua.hillel.nemirovets.homework.homework16;
 
-class Androids implements Smartphones, LinuxOS {
+public class Androids implements Smartphones, LinuxOS {
     public void call(String number) {
         System.out.println("Calling " + number + " from an Android phone.");
     }
