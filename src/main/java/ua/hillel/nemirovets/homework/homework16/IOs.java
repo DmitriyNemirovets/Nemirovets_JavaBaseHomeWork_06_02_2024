@@ -1,6 +1,5 @@
 package ua.hillel.nemirovets.homework.homework16;
 
-interface IOs {
+public interface IOs {
     void useFaceID();
-
 }

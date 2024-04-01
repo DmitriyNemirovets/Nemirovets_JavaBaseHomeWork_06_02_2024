@@ -1,9 +1,11 @@
 package ua.hillel.nemirovets.homework.homework16;
 
-interface Smartphones {
+public interface Smartphones {
     void call(String number);
 
     void sms(String number, String message);
 
     void internet();
+
+    void executeCommand(String command);
 }

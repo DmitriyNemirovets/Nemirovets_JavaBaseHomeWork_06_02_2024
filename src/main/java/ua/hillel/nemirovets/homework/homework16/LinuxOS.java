@@ -1,6 +1,5 @@
 package ua.hillel.nemirovets.homework.homework16;
 
-interface LinuxOS {
+public interface LinuxOS {
     void runTerminal();
-
 }
